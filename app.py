@@ -471,4 +471,5 @@ if __name__ == '__main__':
     run_inference()  # Run inference on all cities
     copy_results_to_assets()  # Copy detection results to assets folder
     app.run(debug=True)  # Start Dash app in debug mode
+    server = app.server
 
